@@ -1,0 +1,44 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title> 01 Web </title>
+<style>
+#Resize {
+	position: absolute;
+	top: 15em;
+	bottom: 0;
+	left: 20em;
+	right: 0;
+	background-color: Red;
+	width: 50%;
+	height: 10em;
+}
+p {
+	color: Black;
+	font-size: 10em;
+	font-family: Arial;
+	text-align: center;
+	margin-top: 0em;
+}
+@media (max-width:1050px) {
+  #Resize {
+    width:100%; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: Yellow;
+  }
+  p {
+  	font-size: 10em;
+  }
+}
+
+
+</style>
+</head>
+<body>
+<div id="Resize">
+ <p> HELLO </p>
+</div>
+</body>
